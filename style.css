@@ -1,0 +1,189 @@
+/*Setting up the basics of margins and text used in the website*/
+html, h1, h2, h3, h5, p
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/*Set title to right and underline*/
+title {
+    text-align: right;
+}
+
+.uline {
+
+    text-decoration: underline;
+}
+/*
+Making columns and boxes to organize images and text 
+*/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.col-1-3 {
+    width: 33%;
+}
+.col-2-3 {
+    width: 66%;
+}
+.col-1-3,
+.col-2-3 {
+    display: inline-block;
+    vertical-align: top;
+}
+.grid,
+.col-1-3,
+.col-2-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*Set up some text in the center of a page*/
+.container,
+.grid {
+    margin: 0 auto;
+    width: 960px;
+}
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+h1,h3,h4,h5 p {
+    margin-bottom: 25px;
+}
+
+/*
+Makes sure grid is visible and spreads out the site instead of bunched together
+*/
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    clear: both;
+    *zoom: 1;
+}
+
+/*
+This section sets up all the coloring of text, size, and decorations
+*/
+body {
+    color: #888;
+    font: 300 16px/22px  "Open Sans",sans-serif;
+   
+}
+h1,h2,h3,h4 {
+    color: #648880;
+}
+h1 {
+    font-size: 36px;
+    line-height: 44px;
+}
+h2 {
+    font-size: 30px;
+    line-height: 44px;
+}
+h3 {
+    font-size: 21px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    color: #a9b2b9;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+p {
+    font-size: 23px;
+}
+strong {
+    font-weight: 400;
+}
+cite, em {
+    font-style: italic;
+}
+/* 
+Similar to the previous section, except customize certain body text, or groups in a code.
+*/
+a {
+    color:#b3b606;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a9b2b9;
+}
+
+p a {
+    border-bottom: 1px solid #dfe2e5;
+}
+
+.logo {
+    border-bottom: 4px solid #b3b606;
+    float: left;
+    font-size: 42px;
+    letter-spacing: .5px;
+    line-height: 44px;
+    padding: 40px 0 22px 0;
+    text-transform: uppercase;
+}
+/*Set up tags*/
+.primary-nav {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    text-align: right;
+}
+/*Set up footer tags*/
+.primary-footer {
+    color: #648880;
+    font-size: 14px;
+    padding-bottom: 44px;
+    padding-top: 44px;
+}
+.primary-footer small {
+    float: left;
+    font-weight: 400;
+}
+
+/*Customize the tags on the main page of website with three pics with text.*/
+.teaser a:hover h3 {
+    color: #a9b2b9;
+}
+.teaser img {
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    max-width: 110%;
+} 
+/*set up the tagline/brief intro to website*/
+.tagline {
+    margin: 66px 0 22px 0;
+    text-align: right;
+    color: #bdd105;
+}
+/*
+nav
+*/
+.nav {
+    text-align: right;
+}
+

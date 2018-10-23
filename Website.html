@@ -1,0 +1,95 @@
+<!--Hi viewer this is my first website from my own self learning. Everything in this code is from 
+the book "Learn to Code HTML&CSS develop & style websites by Shay Howe. This is to prepare me for the 
+upcoming bootcamp.I also commented most of the code to make it easier.-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Star Wars The Clone Wars</title>
+        <!--Link to CSS file and Google website to access text types-->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400">
+    </head>   
+ <!--This is to set the background (All images from google search)--> 
+        <style> 
+        .background1 {
+
+            background-size: cover,cover;
+            background-color:black;
+            background-image:url("images/back2.jpg");
+            background-repeat: no-repeat,no-repeat;
+            background-position: 70% -300%,top;
+        }
+        </style>
+        <body class="background1">
+            <header class="container group">
+            <h1 class="logo">
+<!--Set title and explain theme-->
+                <a href="Website.html">Star Wars <br> The Clone Wars</a>
+            </h1>
+         <h3 class="tagline">The War between The Republic and The Separatist</h3> 
+<!--Set up tags-->
+                <nav class="nav primary-nav">
+                    <a href="Website.html">Home</a>
+                    <a href="republic.html">Republic</a>
+                    <a href="separatist.html">Separatist</a>
+                    <a href="ships.html">Ships</a>
+                </nav>
+            </header>
+
+            <section class="container">
+            </br>
+                <h2>Taking between Episodes 2 and 3</h2>
+                <p>The struggle that lead to a new fight</p>
+            </br>
+        </br>
+            </section>
+<!--Images and tags that go to other links with images positions Teaser in css-->
+            <section class="grid">
+
+                <section class="teaser col-1-3">
+                    <a href="republic.html">
+                    <h5>Republic</h5>
+
+                    <img src="images/sidepic1.jpg" alt="Jedi and Clones" width="290">
+
+                    </a>
+                    <h3>Jedi and Clones</h3>
+                </section>
+
+                <section class="teaser col-1-3"> 
+                    <a href="separatist.html">
+                    <h5>Separatist</h5>
+
+                    <img src="images/sidepic2.jpg" alt="Droids" height="240" width="250">
+                    
+                    </a>
+                    <h3>Sith and Droids</h3>
+                </section>
+
+                <section class="teaser col-1-3">
+                    <a href="ships.html">
+                    <h5>Ships and Machines</h5>
+
+                    <img src="images/sidepic3.gif" alt="ships" width="320">
+
+                    </a>
+                    <h3>Ships and Vechicles</h3>
+                </section>
+
+            </section>
+<!--Footer of the website that include all of the tags and link to offical star war site in 
+another tag.-->
+            <footer class="primary-footer container group">
+                <small>&copy; Star Wars</small>
+
+                <nav class="nav">
+                        <a href="Website.html">Home</a>
+                        <a href="republic.html">Republic</a>
+                        <a href="separatist.html">Separatist</a>
+                        <a href="ships.html">Ships</a>
+                    </nav>
+                    <a href="https://www.starwars.com" target="_blank">Click here to Offical Star Wars Website</a>
+            </footer>
+        </body>
+</html>

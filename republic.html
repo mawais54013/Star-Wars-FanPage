@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Republic</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <!--Set up 2 background per every tag-->
+    <style> 
+        .background2 {
+           background-size: 70% 10%,cover;
+            background-image:url("images/re.jpg"),url("images/back2.jpg");
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-color: black;
+        }
+        </style>
+
+    <body class="background2">
+        <header class ="container group">
+            <h1 class="logo">
+                 <a href="Website.html">Star Wars <br> The Clone Wars</a>
+            </h1>
+            <h3 class="tagline">The War between The Republic and The Separatist</h3> 
+            <!--Set up links that go to other sites-->
+            <nav class="nav primary-nav">
+                    <a href="Website.html">Home</a>
+                    <a href="republic.html">Republic</a>
+                    <a href="separatist.html">Separatist</a>
+                    <a href="ships.html">Ships</a>
+                </nav>
+
+        </header>
+
+        <section class="container">
+            <h1>Republic</h1>
+        </section>
+<!--Grid to organize people in this link-->
+        <sectio class="row">
+            <div class="grid">
+
+                <section class="person" id="skywalker">
+                    <div class="col-2-3">
+                        <!--Keep text to left using col-2-3 to set up a different organization-->
+                        <h2>Anakin Skywalker</h2>
+                        <h5>Jedi Knight of the Republic</h5>
+                        <h5>Planet: Tatooine</h5>
+                        <h5>Weapon/Abilities: Lightsaber, Force wielder</h5>
+                    </div>
+                    <!--Used to set up image to the left with customize positioning-->
+                    <aside class="col-1-3">
+                        <div class="person-info">
+                            <!--ul and li used to set up image in a position-->
+                            <ul>
+                                <li>
+                                    <img src="images/anakin.jpg" alt="anakin" height="250" width="250">
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                </section>
+                <!--Same as before-->
+                <section class="person" id="obi-wan">
+                    <div class="col-2-3">
+                        <h2>Obi-Wan Kenobi</h2>
+                        <h5>Jedi Master/General of the Republic</h5>
+                        <h5>Planet: Stewjon</h5>
+                        <h5>Weapon/Abilities: Lightsaber, Force wielder</h5>
+                        <h5>Nicknames: "The Negotiator</h5>
+                    </div>
+
+                    <aside class="col-1-3">
+                        <div class="person-info">
+                            <ul>
+                                <li>
+                                    <img src="images/obi.jpg" alt="obi-wan" height="250" width="250">
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                </section>
+            </div>
+        </sectio>
+
+        <footer class="primary-footer container group">
+                <small>&copy; Star Wars</small>
+<!--Set up footers for each page-->
+                <nav class="nav">
+                        <a href="Website.html">Home</a>
+                        <a href="republic.html">Republic</a>
+                        <a href="separatist.html">Separatist</a>
+                        <a href="ships.html">Ships</a>
+                    </nav>
+        </footer>
+    </body>
